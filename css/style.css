@@ -1,0 +1,77 @@
+/************************************ base styles ************************************/ 
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+}
+h1 {
+    font-size: 44px;
+}
+h2 {
+    font-size: 36px;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+h1, h2, h3 {
+    margin: 0;
+    line-height: 2;
+}
+a {
+    color: lightsteelblue;
+}
+a:hover {
+    color: royalblue;
+}
+
+main {
+        margin-bottom: 75px;
+}
+footer {
+        background-color: gainsboro;
+}
+/******************************* application styles *******************************/
+
+.global-header {
+    padding: 30px 55px 22px;
+    position: relative;
+    background-color: black;
+    color: linen;
+}
+
+.global-nav {
+    position: absolute;
+    top: 50px;  
+    right: 50px;
+}
+
+.global-nav a {
+    text-transform: uppercase;
+}
+.content-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.side-content{
+    position: absolute;
+    height: 60%;
+    top: 165px;
+    right: 3px;
+    text-align: center;
+    width: 20%;
+    background-color: lavender;
+}
