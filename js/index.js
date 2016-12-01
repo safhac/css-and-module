@@ -1,31 +1,17 @@
-// (function () {
+var UseIt = (function () {
 
-//     var useIt = function () {
-//         var content = document.querySelector('template').content;
-//         // Update something in the template DOM.
-//         var span = content.querySelector('span');
-//         function addArticle() {
-//             span.textContent = parseInt(span.textContent) + 1;
-//             document.querySelector('#container').appendChild(
-//                 document.importNode(content, true));
-//         }
+    console.log('UseIt');
 
-//         return {
-//             addMore: addArticle
-//         }
-//     }
-// })();
-
-document.getElementById('button').addEventListener('click', function () {
-    useIt.addArticle();
-});
-
-var useIt = (function () {
-
-
+    var p = new Products()
+        p.getProducts().then(function(list){
+            console.log(list)
+        });
+ 
     return {
         addArticle: function () {
             console.log('addArticle');
+            
+            console.log(l());
             var content = document.querySelector('template').content;
             // Update something in the template DOM.
             var span = content.querySelector('span');

@@ -32,6 +32,7 @@ h1, h2, h3 {
 }
 a {
     color: lightsteelblue;
+    display: inline-block;
 }
 a:hover {
     color: royalblue;
@@ -74,4 +75,19 @@ footer {
     text-align: center;
     width: 20%;
     background-color: lavender;
+}
+button, input [type="submit"] {
+    font-size: inherit;
+    border: none;
+}
+.btn {
+    color: blue;
+    background: springgreen;
+    padding: 4px 30px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 4px; 
+    vertical-align: top;
+    border: none;
+    font-size: inherit;
 }

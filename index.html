@@ -10,7 +10,7 @@
 
 <body>
     <header class="global-header">
-        <h1>header h1</h1>
+        <h1>Brand</h1>
         <nav class="global-nav">
             <a href="#">link 1</a>
             <a href="#">link 2</a>
@@ -19,10 +19,8 @@
     </header>
     <main>
         <section class="content-wrapper">
-            <h2>section.content-wrapper main h2</h2>
-            
-            <button id="button">Use me</button>
-            <input type="button" onclick="useIt.addArticle()" name="inputClick" value="Use me">
+            <h2>Main header</h2>
+            <input class="btn" type="submit" onclick="UseIt.addArticle()" name="inputClick" value="Use me">
             <div id="container"></div>
         </section>
     </main>
@@ -31,16 +29,19 @@
     </aside>
     <footer>
         <div class="content-wrapper">
-            footer div content-wrapper
+            footer 
             <section>
-                section
+                section 1
             </section>
             <section>
-                section
+                section 2
             </section>
         </div>
     </footer>
-    <script src="js/index.js"></script>
+    <script type="application/json" src="db/products.json"></script>
+    <script type="text/javascript" src="js/products.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
     <template>
         <section>
             <article>
